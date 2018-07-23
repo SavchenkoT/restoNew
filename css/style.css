@@ -567,11 +567,11 @@ input[type="submit"], input[type="search"]:hover {
         width: 100%;
         margin-left: 0;
     }
-    .column{width: 100%;}
+    .column{
+        width: 100%;
+    }
     .button{
-        margin-bottom: 50px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto 50px;
     }
     .name{float: left;}
     .vertical-line{
