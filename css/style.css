@@ -82,6 +82,7 @@ input[type="submit"], input[type="search"]:hover {
 }
 .navigetion {
     max-width: 100%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -191,7 +192,7 @@ input[type="submit"], input[type="search"]:hover {
     height: 35px;
     border: 1px solid #d7d5d5;
     padding: 10px;
-    margin: 0 auto 200px;
+    margin: 0 auto 100px;
     border-radius: 4px;
     color: #e4e4e4;
 }
@@ -223,7 +224,7 @@ input[type="submit"], input[type="search"]:hover {
 
 #sidebar {
     width: 100%;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 .featured{
     display: flex;
@@ -512,7 +513,6 @@ input[type="submit"], input[type="search"]:hover {
         font-size: 12px;
         line-height: 20px;
     }
-
 }
 
 @media only screen and (max-width: 480px) {
@@ -595,11 +595,10 @@ input[type="submit"], input[type="search"]:hover {
     .box:last-of-type{margin:auto;}
     #gallery{
         width: 100%;
-        margin-bottom: 200px;
+        margin-bottom: 50px;
         overflow: auto;
     }
     .fones{
-
         width: 100%;
         height: auto;
     }
@@ -609,10 +608,10 @@ input[type="submit"], input[type="search"]:hover {
         padding: 20px 0;
         color: #fff;
     }
-    #footer .ny_address,
-    #footer .address,
-    #footer .links,
-    #footer .copyright{
+    .ny_address,
+    .address,
+    .links,
+    .copyright {
         width: 100%;
         font-size: 12px;
         line-height: 20px;
