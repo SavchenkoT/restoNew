@@ -508,7 +508,9 @@ input[type="submit"], input[type="search"]:hover {
     .address,
     .links,
     .copyright {
-
+        width: 100%;
+        font-size: 12px;
+        line-height: 20px;
     }
 
 }
