@@ -469,7 +469,7 @@ input[type="submit"], input[type="search"]:hover {
     }
     .box{
         float: left;
-        width: 32%;/*230px/1100*/
+        width: 32%;
         margin-bottom: 5.454545%;
     }
     .box:nth-child(2n){float: right;}
@@ -502,6 +502,13 @@ input[type="submit"], input[type="search"]:hover {
         width: 100%;
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    .ny_address,
+    .address,
+    .links,
+    .copyright {
+
     }
 
 }
@@ -600,10 +607,10 @@ input[type="submit"], input[type="search"]:hover {
         padding: 20px 0;
         color: #fff;
     }
-    .ny_address,
-    .address,
-    .links,
-    .copyright{
+    #footer .ny_address,
+    #footer .address,
+    #footer .links,
+    #footer .copyright{
         width: 100%;
         font-size: 12px;
         line-height: 20px;
