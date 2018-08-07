@@ -514,6 +514,11 @@ input[type="submit"], input[type="search"]:hover {
         width: 100%;
         font-size: 12px;
         line-height: 20px;
+        margin-right: 0;
+    }
+    .ny_address,
+    .address{
+        margin-bottom: 20px;
     }
 }
 
@@ -618,16 +623,8 @@ input[type="submit"], input[type="search"]:hover {
         font-size: 12px;
         line-height: 20px;
     }
-    .ny_address,
-    .address,
-    .links{
-        margin-right: 0%;
-    }
     .links{clear: both;}
-    .ny_address,
-    .address{
-        margin-bottom: 20px;
-    }
+
     .logo-resto{
         background: url('../images/Resto.png') no-repeat;
         width: 81px;
